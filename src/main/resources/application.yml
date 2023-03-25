@@ -1,0 +1,21 @@
+#spring:
+#  datasource:
+#    url: jdbc:
+#    username:
+#    password:
+#    driver-class-name:
+#  jackson:
+#    default-property-inclusion: non_null
+#  sql:
+#    init:
+#      mode:
+#        schema-location: ""
+
+logging:
+  level:
+    org.apache.coyote.http11.Http11InputBuffer: DEBUG # Incoming HTTP requests
+    org.springframework.web.reactive.function.client.ExchangeFunctions: TRACE # Outgoing http requests
+
+twitch:
+  client-id: "yi0xg3a0qv8i6nptuznk7si0885u0x"
+  secret: "z2pl9n6iglnc80yyx5ndbjvfb30vvo"
